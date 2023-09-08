@@ -19,30 +19,30 @@ int main(void)
 
 		while (n < 58)
 		{
-			while (m < 58)
-			{
-				while (w < 58)
+				while (m < 58)
 				{
-						putchar(n);
-						putchar(m);
-						putchar(w);
-						if ((n != 55))
+						while (w < 58)
 						{
-								putchar(44);
-								putchar(32);
+								putchar(n);
+								putchar(m);
+								putchar(w);
+										if ((n != 55))
+										{
+											putchar(44);
+											putchar(32);
+										}
+								w++;
 						}
-						w++;
-				}
-						m++;
-						d++;
-						w = d;
-			}
-				c++;
-				b++;
-				d = b;
-				m = c;
-				w = b;
-				n++;
+								m++;
+								d++;
+								w = d;
+					}
+						c++;
+						b++;
+						d = b;
+						m = c;
+						w = b;
+						n++;
 		}
 
 		putchar('\n');

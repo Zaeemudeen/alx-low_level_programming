@@ -1,46 +1,49 @@
 #include <stdio.h> 
+ #include <stdlib.h> 
+ #include <time.h> 
   
  /** 
   * main - Entry point 
   * 
-  * Return: Always 0 for success 
+  * Return: Always 0 (Success) 
   */ 
  int main(void) 
  { 
-         int i, j, k, l; 
+         int n = 48; 
+         int m = 49; 
+         int w = 50; 
+         int c = 49; 
+         int d = 50; 
+         int b = 50; 
   
-         i = 48; 
-         while (i < 58) 
+         while (n < 58) 
          { 
-                 j = 48; 
-                 while (j < 58) 
+                 while (m < 58) 
                  { 
-                         k = i; 
-                         while (k < 58) 
+                         while (w < 58) 
                          { 
-                                 if (i == k) 
-                                         l = j + 1; 
-                                 else 
-                                         l = 48; 
-                                 while (l < 58) 
+                                 putchar(n); 
+                                 putchar(m); 
+                                 putchar(w); 
+                                 if ((n != 55)) 
                                  { 
-                                         putchar(i); 
-                                         putchar(j); 
-                                         putchar(' '); 
-                                         putchar(k); 
-                                         putchar(l); 
-                                         if (i == 57 && j == 56 && k == 57 && l == 57) 
-                                                 break; 
-                                         putchar(','); 
-                                         putchar(' '); 
-                                         l++; 
+                                         putchar(44); 
+                                         putchar(32); 
                                  } 
-                                 k++; 
+                                 w++; 
                          } 
-                         j++; 
+                         m++; 
+                         d++; 
+                         w = d; 
                  } 
-                 i++; 
+                 c++; 
+                 b++; 
+                 d = b; 
+                 m = c; 
+                 w = b; 
+                 n++; 
          } 
+  
          putchar('\n'); 
          return (0); 
  }

@@ -12,18 +12,18 @@
 * Return: always 0 (successful)
 */
 
-int main(void) 
+int main(void)
 {
 		/* local variable definition */
 		int a = 0;
 
 		/* while loop execution */
-		while (a < 10)
-					{
-					printf("%d", a);
-					a++;
-					}
-					printf("\n");
+				while (a < 10)
+						{
+						printf("%d", a);
+						a++;
+						}
+						printf("\n");
 
 		return (0);
 }

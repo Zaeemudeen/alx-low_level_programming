@@ -3,27 +3,34 @@
 #include <stdio.h>
 
 /* more headers goes there */
+
 /* betty style doc for function main goes there */
+
+/**
+* main - entry point
+* program prints the size of functions
+* Return: always 0 (successful)
+*/
 
 int main(void)
 {
 	int n;
-	int last_digit;
+	int L;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	last_digit = abs(n) % 10;
+	L = n % 10;
 
-	if (last_digit > 5)
-			printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
+	if (L > 5)
+			printf("Last digit of %d is %d and is greater than 5\n", n, L);
 
-	if (last_digit <  6 && last_digit != 0)
-			printf("Last digit of %d is %d and is less than 6 and not zero\n", n, last_digit);
+	else if (L == 0)
+			printf("Last digit 0f %d is %d and is 0\n", n, L);
 
-	if (last_digit == 0)
-			printf("Last digit 0f %d is %d and is 0\n", n, last_digit);
+	else
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, L);
 
 	return (0);
 }

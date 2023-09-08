@@ -8,10 +8,10 @@
 int main(void)
 
 {
-			int m;
+		int m;
 
 		for (m = 48; m < 57; m++)
-			{
+		{
 					int n;
 
 					for (n = m + 1; n < 58; n++)
@@ -24,7 +24,7 @@ int main(void)
 						putchar(44);
 						putchar(32);
 					}
-			}
-			putchar('\n');
-			return (0);
+		}
+		putchar('\n');
+		return (0);
 }

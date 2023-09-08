@@ -12,20 +12,19 @@ int main(void)
 
 			for (m = 48; m < 57; m++)
 			{
-			int n;
+					int n;
 
-			for (n = m + 1; n < 58; n++)
-			{
-					putchar(m);
-					putchar(n);
+					for (n = m + 1; n < 58; n++)
+					{
+							putchar(m);
+							putchar(n);
 
-					if (m == 56 && n == 57)
-					continue;
-					putchar(44);
-					putchar(32);
-			}
+							if (m == 56 && n == 57)
+							continue;
+							putchar(44);
+							putchar(32);
+					}
 			}
 			putchar('\n');
 			return (0);
 }
-

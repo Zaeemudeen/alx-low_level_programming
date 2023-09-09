@@ -2,19 +2,15 @@
 
 
 ## Tasks
-## *_ 0. Positive anything is better than negative nothing
-mandatory
+## 0. Positive anything is better than negative nothing.
+
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 
-You can find the source code here
-The variable n will store a different value every time you will run this program
-You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
-The output of the program should be:
+The variable n will store a different value every time you will run this program.The output of the program should be:
 The number, followed by
-if the number is greater than 0: is positive
-if the number is 0: is zero
-if the number is less than 0: is negative
-followed by a new line
+* _if the number is greater than 0: is positive_
+* _if the number is 0: is zero_
+* _if the number is less than 0: is negative followed by a new line_
 
 
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
@@ -35,13 +31,13 @@ julien@ubuntu:~/0x01$ ./0-positive_or_negative
 julien@ubuntu:~/0x01$ ./0-positive_or_negative 
 0 is zero
 julien@ubuntu:~/0x01$ 
-Repo:
 
-GitHub repository: alx-low_level_programming
+## _Repo:_
+* _GitHub repository:alx-low_level_programming_
 Directory: 0x01-variables_if_else_while
 File: 0-positive_or_negative.c _
    
-1. The last digit
+## 1. The last digit
 mandatory
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 

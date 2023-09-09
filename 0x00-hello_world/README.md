@@ -1,4 +1,4 @@
-# alx-low_level_programming/0x00-hello_world
+ # alx-low_level_programming/0x00-hello_world
 
 
 ##  Tasks
@@ -217,7 +217,7 @@ GitHub repository: alx-low_level_programming
 Directory: 0x00-hello_world
 File: 6-size.c
     
-##7. Intel
+## 7. Intel
 Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
 The C file name will be saved in the variable $CFILE.

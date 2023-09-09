@@ -1,8 +1,8 @@
-alx-low_level_programming/0x01-variables_if_else_while
+## alx-low_level_programming/0x01-variables_if_else_while
 
 
 ## Tasks
-0. Positive anything is better than negative nothing
+## *_ 0. Positive anything is better than negative nothing
 mandatory
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 
@@ -15,6 +15,8 @@ if the number is greater than 0: is positive
 if the number is 0: is zero
 if the number is less than 0: is negative
 followed by a new line
+
+
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
 julien@ubuntu:~/0x01$ ./0-positive_or_negative 
 -520693284 is negative
@@ -37,7 +39,7 @@ Repo:
 
 GitHub repository: alx-low_level_programming
 Directory: 0x01-variables_if_else_while
-File: 0-positive_or_negative.c
+File: 0-positive_or_negative.c _
    
 1. The last digit
 mandatory

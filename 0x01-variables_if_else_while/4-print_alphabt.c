@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program prints Alphabets except e and q in lower case
 * Return: always 0 (successful)
 */
 

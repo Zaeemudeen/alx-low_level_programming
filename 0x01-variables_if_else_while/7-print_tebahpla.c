@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program prints Alphabets in descending order
 * Return: always 0 (successful)
 */
 

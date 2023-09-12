@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program prints hexadecimal numbers 0 - f
 * Return: always 0 (successful)
 */
 

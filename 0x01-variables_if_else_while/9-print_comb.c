@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program prints digits 0 - 9 with comma and space after each of them except the last
 * Return: always 0 (successful)
 */
 

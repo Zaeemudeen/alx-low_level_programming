@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program prints the decimal numbers 0 - 9 using putchar and not printf
 * Return: always 0 (successful)
 */
 

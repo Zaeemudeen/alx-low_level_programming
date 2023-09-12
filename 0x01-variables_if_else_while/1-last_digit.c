@@ -8,7 +8,7 @@
 
 /**
 * main - entry point
-* program prints the size of functions
+* program generate a random number and tell if the last digit is < 6 && != 0, > 5 or == 0
 * Return: always 0 (successful)
 */
 

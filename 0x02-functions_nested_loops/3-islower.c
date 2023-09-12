@@ -4,6 +4,7 @@
 
 /**
   * _islower - a function that checks if a letter is lower or uppercase
+  * return - 0 if it is uppercase and 1 if it is lowercase
   */
 
 int _islower(int c)

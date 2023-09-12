@@ -8,8 +8,11 @@
 * Return: Always 0 for success
 */
 
+
+void print_alphabet(void)
 {
 		int x;
+
 		for (x = 'a'; x <= 'z'; x++)
 		{
 		putchar(x);

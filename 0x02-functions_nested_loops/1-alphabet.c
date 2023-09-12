@@ -4,7 +4,9 @@
 
 /**
 * main - Prints the alphabets in lower case
-* print_alphabet: prints the alphabets in lower case
+*
+* print_alphabet - prints the alphabets in lower case
+*
 * Return: Always 0 for success
 */
 

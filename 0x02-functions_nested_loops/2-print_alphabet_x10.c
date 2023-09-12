@@ -8,11 +8,8 @@
 * print_alphabet_x10 - prints alphabets 10 times.
 */
 
-/*
-This functionprints alphabets 10 times.
-*/
+/*This functionprints alphabets 10 times.*/
 void print_alphabet_x10(void)
-/* print_alphabet_x10 - prints alphabets 10 times. */
 
 {
 		int x = 0, y;

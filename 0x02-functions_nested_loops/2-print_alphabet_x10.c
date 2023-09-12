@@ -4,17 +4,8 @@
 /**
 * main - Prints the alphabets in lower case 10x
 *
-* Return: Always 0 for success
+* print_alphabet_x10 - prints alphabets 10 times.
 */
-
-void print_alphabet_x10(void);
-
-int main(void)
-
-{
-		print_alphabet_x10();
-		return (0);
-}
 
 void print_alphabet_x10(void)
 

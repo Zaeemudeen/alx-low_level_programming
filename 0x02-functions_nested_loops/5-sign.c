@@ -7,24 +7,23 @@
    * Return: Returns 1 if the character is a positive and 0 if n is zero and -1 otherwise
    */
 
-int print_sign(int n)
+int print_sign (int n)
 {
-	if (n > 0)
-	{
-	printf("+");
-	return (1);
-	}
+		if (n > 0)
+		{
+		putchar('+');
+		return (1);
+		}
 
-	else if (n == 0)
-	{
-	printf("0");
-	return (0);
-	}
-	
-	else
-	{
-	printf("-");
-	return (-1);
-	}
+		else if (n == 0)
+		{
+		putchar(48);
+		return (0);
+		}
+
+		else if (n < 0)
+		{
+		putchar('-');
+		}
+		return (-1);
 }
-

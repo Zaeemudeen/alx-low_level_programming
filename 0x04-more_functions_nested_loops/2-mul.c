@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
 /**
-* main - check the code
 * mul - this function multiplies two numbers
 * @a: the first number
 * @b: the second number

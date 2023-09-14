@@ -6,7 +6,7 @@
   * main - check the code
   * _isdigit - this function checks for number
   * @c: the character to be checked
-  * Return: Always 1 if the c is number and 0 else
+  * Return: 1 if the c is number and 0 else
   */
 
 int _isdigit(int c)

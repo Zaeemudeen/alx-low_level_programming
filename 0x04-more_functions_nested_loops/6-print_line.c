@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 * print_line - prints line in numbers of n
@@ -14,7 +13,6 @@ void print_line(int n)
 	{
 		putchar('\n');
 	}
-	
 	else
 	{
 		for (i = 1;i <= n; i++)

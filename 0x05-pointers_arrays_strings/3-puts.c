@@ -18,7 +18,7 @@ void _puts(char *str)
 	if (str[i] == '\0')
 	{
 		puts(str);
-		i++;
 	}
+	i++;
 }
 

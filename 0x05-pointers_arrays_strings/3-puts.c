@@ -11,14 +11,6 @@
 
 void _puts(char *str)
 {
-	int i;
-
-	i = 0;
-
-	if (str[i] != '\0')
-	{
-		puts(str);
-	}
-	i++;
+	puts(str);
 }
 

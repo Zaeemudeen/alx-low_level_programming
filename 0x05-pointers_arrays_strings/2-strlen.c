@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  * _strlen - function swaps two integers
@@ -10,7 +11,6 @@
 
 int _strlen(char *s)
 {
-	int l;
-	l = _strlen(s);
+	strlen(s);
 }
 

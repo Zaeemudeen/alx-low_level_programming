@@ -15,10 +15,10 @@ void _puts(char *str)
 
 	i = 0;
 
-	if (str[i] == '\0')
+	if (str[i] != '\0')
 	{
 		puts(str);
 	}
-	i++;
+	++i;
 }
 

@@ -23,6 +23,6 @@ void print_array(int *a, int n)
 			putchar(32);
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 }
 

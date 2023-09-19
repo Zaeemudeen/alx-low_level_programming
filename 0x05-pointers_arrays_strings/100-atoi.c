@@ -26,7 +26,7 @@ int _atoi(char *s)
 	{
 		if ((s[j] >= 48) && (s[j] <= 57))
 		{
-			ten = ten * 10 + (s[j] -9 '0');
+			ten = ten * 10 + (s[j] - '0');
 			found = 1;
 		}
 		else if (s[j] == 45)
@@ -39,6 +39,6 @@ int _atoi(char *s)
 		}
 	}
 	ten2 = ten * neg;
-	return (ten2)
+	return (ten2);
 }
 

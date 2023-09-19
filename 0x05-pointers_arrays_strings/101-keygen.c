@@ -40,6 +40,7 @@ int main(void)
 			n = limit - count;
 			s = n;
 			printf("%c", s);
- 			return (0);
 		}
+
+	return (0);
 }

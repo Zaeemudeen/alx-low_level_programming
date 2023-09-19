@@ -39,7 +39,7 @@ int main(void)
 		{
 			n = limit - count;
 			s = n;
-			printf("%c", s); j}
+			printf("%c", s);
  			return (0);
 		}
 }

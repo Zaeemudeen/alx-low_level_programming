@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/** 
+/**
  * _strcpy - copies one string to another
  * @dest: Array
  * @src: Size of Array
@@ -26,5 +26,5 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	return (dest);
- }
+}
 

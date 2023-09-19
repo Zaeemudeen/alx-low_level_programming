@@ -41,6 +41,6 @@ int main(void)
 			s = n;
 			printf("%c", s);
 		}
-
+	}
 	return (0);
 }

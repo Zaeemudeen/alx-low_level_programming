@@ -17,10 +17,10 @@ char *cap_string(char *str)
 
 		for (j = 0; j < i; j++)
 		{
-		s = str[j - 1];
+			s = str[j - 1];
 
-		if (s == '\n' || s == '.' || s == ' ' || s == '\t')
-		str[j] = toupper(str[j]);
+			if (s == '\n' || s == '.' || s == ' ' || s == '\t')
+			str[j] = toupper(str[j]);
 		}
 	}
 	return (str);

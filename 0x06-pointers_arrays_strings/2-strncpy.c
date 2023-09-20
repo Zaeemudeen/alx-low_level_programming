@@ -7,6 +7,7 @@
  * _strncpy - copy the second string to the first
  * @dest: the first string
  * @src: the second string
+ * @n: number of characters to copy
  * Return: return dest
  */
 

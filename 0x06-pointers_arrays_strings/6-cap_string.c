@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		{
 			s = str[j - 1];
 
-			if (s == '\n' || s == '.' || s == ' ' || s == '\t')
+			if(s == '\n' || s == '.' || s == ' ' || s == '\t')
 			str[j] = toupper(str[j]);
 		}
 	}

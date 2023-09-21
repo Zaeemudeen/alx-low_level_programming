@@ -13,15 +13,15 @@ char *cap_string(char *str)
 
 	while (str[i] != '\0')
 	{
-		i++;
+	i++;
 
-		for (j = 0; j < i; j++)
-		{
+	for (j = 0; j < i; j++)
+	{
 		s = str[j - 1];
 
 		if (s == '\n' || s == '.' || s == ' ' || s == '\t')
 		str[j] = toupper(str[j]);
-		}
+	}
 	}
 	return (str);
 }

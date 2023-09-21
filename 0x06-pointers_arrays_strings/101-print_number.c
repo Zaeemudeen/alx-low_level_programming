@@ -35,4 +35,3 @@ void print_number(int n)
 		putchar(((x / count) % 10) + 48);
 	}
 }
-

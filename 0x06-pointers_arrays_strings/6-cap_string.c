@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 /**
  * cap_string - changes the first letters of string to uppper case
  * @str: the string

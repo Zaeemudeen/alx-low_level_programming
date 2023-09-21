@@ -1,4 +1,5 @@
 #include <stdio.h>
+include <string.h>
 #include "main.h"
 /**
  * leet - manipulates selected elements
@@ -9,9 +10,9 @@
 char *leet(char *str)
 {
 	int i = 0, j;
-	char leet[] = "aeotl"
-	char leet2[] = "AEOTL"
-	char leet3[] = "43071"
+	char leet[] = "aeotl";
+	char leet2[] = "AEOTL";
+	char leet3[] = "43071";
 
 	while (*str != '\0')
 	{

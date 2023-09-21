@@ -9,29 +9,21 @@
 char *leet(char *str)
 {
 	int i = 0, j;
+	char leet[] = "aeotl"
+	char leet2[] = "AEOTL"
+	char leet3[] = "43071"
 
-	while (str[i] != '\0')
+	while (*str != '\0')
 	{
+	for (j = 0; j <= 4; j++)
+	{
+		if (*str == leet[j] || *str == leet2[j])
+		*str = leet3[j];
+	}
+	str++;
 	i++;
-
-	for (j = 0; j < i; j++)
-	{
-		if (str[j] == 65 || str[j] == 97)
-		str[j] = 52;
-
-		if (str[j] == 69 || str[j] == 101)
-		str[j] = 51;
-
-		if (str[j] == 79 || str[j] == 111)
-		str[j] = 48;
-
-		if (str[j] == 84 || str[j] == 116)
-		str[j] = 55;
-
-		if (str[j] == 76 || str[j] == 108)
-		str[j] = 49;
 	}
-	}
+	str = str - 1;
 	return (str);
 }
 

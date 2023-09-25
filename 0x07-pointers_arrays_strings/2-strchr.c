@@ -11,8 +11,14 @@
 
 char *_strchr(char *s, char c)
 {
-	char temp = strchr(s, c);
-
-	return (temp);
+	while (*s != '\0')
+	{
+		if (*s == c)
+		{
+		return (s);
+		}
+		s++;
+	}
+	return (NULL);
 }
 

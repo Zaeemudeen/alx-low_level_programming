@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "maain.h"
+#include "main.h"
 
 /**
  * _strpbrk - searches for a string in the initialstring

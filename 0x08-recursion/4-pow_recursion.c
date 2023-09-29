@@ -7,7 +7,7 @@
  * @y: exponential
  * Return: power and -1 if y < 0
  */
- 
+
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)

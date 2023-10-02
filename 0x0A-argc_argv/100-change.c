@@ -54,7 +54,7 @@ int main(int argc, char **argv)
 			{
 				while (cents != 0)
 				{
-				d = cents / c[j]
+				d = cents / c[j];
 				if (d == 0)
 				{
 				j++;

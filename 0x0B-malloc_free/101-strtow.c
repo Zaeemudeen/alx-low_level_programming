@@ -22,7 +22,7 @@ int _wcount(char *sw)
 		if (*(sw + l) != ' '  && *(sw + l + 1) == 0)
 			wc++;
 		l++;
-		}
+	}
 	return (wc);
 }
 

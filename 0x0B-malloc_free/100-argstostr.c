@@ -21,7 +21,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		lt = 0;
-		
+
 		while (av[i][lt])
 			lt++;
 		l += lt + 1;

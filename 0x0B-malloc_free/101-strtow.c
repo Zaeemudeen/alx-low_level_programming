@@ -52,27 +52,22 @@ char **strtow(char *str)
 	char **s, *ts;
 
 	int l, l2, wc, i, j, fr, k;
-
 	if (str == NULL || *str == 0)
 		return (0);
-
 	fr = 0;
 	wc = _wcount(str);
 	if (wc == 0)
 		return (0);
-
 	s = malloc((wc + 1) * sizeof(char *));
 	if (s == 0)
 		return (0);
-	
 	ts = _trspace(str);
 	for (i = 0; i < wc; i++)
 	{
 		l = 0;
 		while (*(ts + l) != ' ' && *(ts + l) != 0)
 			l++;
-
-		s[i] = malloc((l + 1) * sizeof(char));
+	s[i] = malloc((l + 1) * sizeof(char));
 		if (s[i] == 0)
 		{
 			fr = 1;
@@ -84,7 +79,6 @@ char **strtow(char *str)
 		s[i][j] = '\0';
 		ts = _trspace(ts + l);
 	}
-
 		s[i] = NULL;
 		if (fr == 1)
 		{

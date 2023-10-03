@@ -80,8 +80,8 @@ char **strtow(char *str)
 		}
 
 		for (j = 0, l2 = 0; l2 < l; l2++, j++)
-			s[i][j] = *(ts + l2);
-			s[i][j] = '\0';
+		s[i][j] = *(ts + l2);
+		s[i][j] = '\0';
 		ts = _trspace(ts + l);
 	}
 

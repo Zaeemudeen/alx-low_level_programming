@@ -89,8 +89,8 @@ char **strtow(char *str)
 		if (fr == 1)
 		{
 			for (k = 0; k <= i; k++)
-				free(s[k]);
-				free(s);
+			free(s[k]);
+			free(s);
 		}
 		return (s);
 }

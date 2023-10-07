@@ -15,8 +15,7 @@
   
          for (i = 0; i < n; i++) 
                  ptr[i] = x; 
-  
-         return (ptr); 
+  													return (ptr); 
  } 
   
  /** 

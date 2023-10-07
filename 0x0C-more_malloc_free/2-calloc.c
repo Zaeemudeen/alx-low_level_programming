@@ -14,8 +14,8 @@
          unsigned int i; 
   
          for (i = 0; i < n; i++) 
-                 ptr[i] = x; 
-  													return (ptr); 
+                 ptr[i] = x;
+                 return (ptr); 
  } 
   
  /** 

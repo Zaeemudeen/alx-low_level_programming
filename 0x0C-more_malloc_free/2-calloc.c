@@ -1,7 +1,6 @@
 #include "main.h" 
  #include <stdio.h> 
- #include <stdlib.h> 
-#include <string.h>
+ #include <stdlib.h>
  /** 
   * _memset -  initializes n bytes of memory to x 
   * @ptr: initial adress 

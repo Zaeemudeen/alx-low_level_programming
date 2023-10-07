@@ -1,15 +1,17 @@
-#include <string.h> 
- #include <stdlib.h> 
- #include <stdio.h> 
- #include <ctype.h> 
- /** 
-  * _isnumber - checks if string is number 
-  * 
-  * @s: string 
-  * 
-  * Return: 1 if number, 0 if not 
-  */ 
- int _isnumber(char *s) 
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+
+/**
+ * _isnumber - checks if string is number
+ *
+ * @s: string
+ *
+ * Return: 1 if number, 0 if not
+ */
+
+int _isnumber(char *s) 
  { 
          int i, check, d; 
   
@@ -24,16 +26,17 @@
                  } 
          } 
          return (check); 
- } 
-  
- /** 
-  * _callocX - reserves memory initialized to 0 
-  * 
-  * @nmemb: # of bytes 
-  * 
-  * Return: pointer 
-  */ 
- char *_callocX(unsigned int nmemb) 
+ }
+
+/**
+ * _callocX - reserves memory initialized to 0
+ *
+ * @nmemb: # of bytes
+ *
+ * Return: pointer
+ */
+
+char *_callocX(unsigned int nmemb) 
  { 
          unsigned int i; 
          char *p; 
